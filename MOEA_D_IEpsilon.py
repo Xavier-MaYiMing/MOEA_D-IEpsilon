@@ -168,7 +168,7 @@ def nd_cd_sort(pop, objs, npop):
     return next_pop, next_objs
 
 
-def main(npop, iter, lb, ub, T=30, delta=0.9, nr=2, tau=0.1, alpha=0.95, Tc=0.8, CR=1, F=0.5, pm=1, eta_m=20):
+def main(npop, iter, lb, ub, T=30, delta=0.9, nr=2, tau=0.1, alpha=0.95, Tc=0.8, CR=1, F=0.5, eta_m=20):
     """
     The main function
     :param npop: population size
@@ -183,7 +183,6 @@ def main(npop, iter, lb, ub, T=30, delta=0.9, nr=2, tau=0.1, alpha=0.95, Tc=0.8,
     :param Tc: control generation (default = 0.8 * iter)
     :param CR: crossover rate (default = 1)
     :param F: mutation scalar number (default = 0.5)
-    :param pm: mutation probability (default = 1)
     :param eta_m: spread factor distribution index (default = 20)
     :return:
     """
