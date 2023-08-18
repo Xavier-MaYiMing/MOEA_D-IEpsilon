@@ -13,8 +13,8 @@
 | T         | Neighborhood size (default = 30)                             |
 | delta     | The probability of selecting individuals in the neighborhood (default = 0.9) |
 | nr        | The maximal number of solutions replaced by a child (default = 2) |
-| tau       | Control the searching preference between the feasible and infeasible regions (default = 0.95) |
-| alpha     | Control the scale factor multiplied by the maximum overall constraint violation (default = 0.1) |
+| tau       | Control the scale factor multiplied by the maximum overall constraint violation (default = 0.1) |
+| alpha     | Control the searching preference between the feasible and infeasible regions (default = 0.95) |
 | Tc        | Control generation (default = 0.8 * iter)                    |
 | CR        | Crossover rate (default = 1)                                 |
 | F         | Mutation scalar number (default = 0.5)                       |
