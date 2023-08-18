@@ -172,14 +172,14 @@ def main(npop, iter, lb, ub, T=30, delta=0.9, nr=2, tau=0.1, alpha=0.95, Tc=0.8,
     """
     The main function
     :param npop: population size
-    :param iter: iteration size
+    :param iter: iteration number
     :param lb: lower bound
     :param ub: upper bound
     :param T: neighborhood size (default = 30)
     :param delta: the probability of selecting individuals in the neighborhood (default = 0.9)
     :param nr: the maximal number of solutions replaced by a child (default = 2)
-    :param tau: control the searching preference between the feasible and infeasible regions (default = 0.95)
-    :param alpha: control the scale factor multiplied by the maximum overall constraint violation (default = 0.1)
+    :param tau: control the scale factor multiplied by the maximum overall constraint violation (default = 0.1)
+    :param alpha: control the searching preference between the feasible and infeasible regions (default = 0.95)
     :param Tc: control generation (default = 0.8 * iter)
     :param CR: crossover rate (default = 1)
     :param F: mutation scalar number (default = 0.5)
